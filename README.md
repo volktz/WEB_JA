@@ -1,3 +1,3 @@
-# HTML_JA
+# WEB
 
--atividades de HTML do jovem aprendiz
+-atividades de programação WEB do jovem aprendiz
