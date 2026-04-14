@@ -1,0 +1,37 @@
+body {
+    background-color: darkred;
+    color: white;
+    text-align: center;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: square;
+}
+
+img {
+    width: 500px;
+}
+
+p,
+ul,
+ol{
+    font-size: 20px;
+}
+
+div {
+    height: 125px;
+    text-align: start;
+}
+
+.imagem1 {
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
