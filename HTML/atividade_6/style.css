@@ -1,0 +1,41 @@
+body {
+    background-color: darkred;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+th,
+td {
+    border: 1px solid white;
+    padding: 8px;
+}
+
+td {
+    color: red;
+}
+
+table {
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tb1 {
+    background-color: blue;
+    color: white;
+}
+
+.tb2 {
+    background-color: chocolate;
+    color: black;
+}
+
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
