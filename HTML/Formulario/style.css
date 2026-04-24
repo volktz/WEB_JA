@@ -30,6 +30,7 @@ body {
     width: 300px;
     border-radius: 5px;
     padding: 2.5px;
+    border: none;
 }
 
 .formulario .butao{
@@ -43,6 +44,17 @@ body {
     color: white;
     width: 145px;
     height: 100px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formulario #enviar:hover{
+    background-color: rgba(0, 128, 0, 0.6);
+}
+
+.formulario #cancelar:hover{
+    background-color: rgba(255, 0, 0, 0.6);
 }
 
 .formulario #enviar {
