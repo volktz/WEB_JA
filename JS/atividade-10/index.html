@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Variavel const</h1>
+    <label for="nome">Digite seu nome: <br></label>
+    <input type="text" name="nome" id="nome"> <br>
+    <label for="idade">Digite sua idade: <br></label>
+    <input type="number" name="idade" id="idade"> <br>
+    <button onclick="mostrar()">Enviar</button> <br>
+    <h1 id="inner-h1-2"></h1>
+    <h1 id="inner-h1"></h1>
+    <script>
+        const teste = document.getElementById("idade");
+        const sistema = "Se usamos const, o valor não muda!";
+        function mostrar() {
+            const nome = document.getElementById("nome").value;
+            const idade = teste.value;
+
+            document.getElementById('inner-h1-2').innerHTML = "Olá " + nome + "<br>" + sistema;
+            document.getElementById("inner-h1").innerHTML = idade
+        }
+    </script>
+</body>
+</html>
