@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="" class="position-absolute top-50 start-50 translate-middle border border-5 border-danger rounded bg-danger shadow-lg
+">
+    <h1>Formulário com bootstrap</h1>
+        <div>
+            <div class="mb-3 form-floating">
+                <input type="text" class="form-control" name="nome" id="nome" aria-describedby="helpId"
+                    placeholder="Digite seu nome." />
+                <label for="nome" class="form-label">Nome</label>
+            </div>
+        </div>
+        <div class="mb-3 form-floating">
+            <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId"
+                placeholder="Digite seu email." />
+            <label for="email" class="form-label">Email</label>
+        </div>
+        <div class="mb-3">
+            <label for="texto" class="form-label">Texto</label>
+            <textarea class="form-control" name="texto" id="texto" rows="3"></textarea>
+        </div>
+        <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-success">
+                Submit
+            </button>
+        </div>
+    </form>
+</body>
+
+</html>
